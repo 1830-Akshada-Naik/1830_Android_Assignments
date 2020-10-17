@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment_6_Registration</string>
+
+    <string-array name="text">
+        <item>North Goa</item>
+        <item>South Goa</item>
+    </string-array>
+</resources>

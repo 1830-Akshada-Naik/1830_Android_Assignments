@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="30dp">
+
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="358dp"
+            android:layout_height="66dp"
+            android:background="?attr/colorPrimary"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="?attr/actionBarTheme" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="351dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="70dp"
+            android:gravity="center_horizontal"
+            android:text="Akshada Naik"
+            android:textAlignment="center"
+            android:textSize="10pt" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender"
+            android:textSize="20sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="Male"
+            android:textSize="20sp" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Female"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Others"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"
+                />
+
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="State"
+            android:textSize="20sp" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:edit="disable"
+            android:textSize="20sp"
+            android:text="Goa">
+        </EditText>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

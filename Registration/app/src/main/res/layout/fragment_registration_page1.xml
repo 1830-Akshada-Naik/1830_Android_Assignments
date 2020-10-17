@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="#ADD8E6"
+    tools:context=".RegistrationPage1">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:text="Registration Page 1"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:hint="Full Name"
+        android:id="@+id/edtname"
+        android:inputType="text"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:hint="Email_Id"
+        android:inputType="text"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/confirmpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center_horizontal"
+        android:hint="Confirm Password"
+        android:inputType="textPassword"
+        android:textAlignment="center"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        android:text="Set Values"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnget"
+        android:text="Get Values"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt"
+        android:layout_marginTop="20dp"
+        android:hint="Show Data"/>
+
+</FrameLayout>

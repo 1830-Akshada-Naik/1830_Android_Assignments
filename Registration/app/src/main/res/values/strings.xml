@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Registration</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="text">
+        <item>North Goa</item>
+        <item>South Goa</item>
+    </string-array>
+
+
+</resources>
